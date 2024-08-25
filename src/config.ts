@@ -1,10 +1,10 @@
 import type { Site, SocialObjects } from "./types";
 
 export const SITE: Site = {
-  website: "https://astro-paper.pages.dev/", // replace this with your deployed domain
-  author: "Sat Naing",
-  profile: "https://satnaing.dev/",
-  desc: "A minimal, responsive and SEO-friendly Astro blog theme.",
+  website: "https://AbyaYala.eth.limo/", // replace this with your deployed domain
+  author: "AbyaYala.eth",
+  profile: "https://AbyaYala.eth.limo/",
+  desc: "Organización Autónoma Descentralizada para el desarrollo de los pueblos originarios de américa.",
   title: "Abya Yala DAO",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
@@ -19,8 +19,8 @@ export const LOCALE = {
 } as const;
 
 export const LOGO_IMAGE = {
-  enable: false,
-  svg: true,
+  enable: true,
+  svg: false,
   width: 216,
   height: 46,
 };
@@ -29,38 +29,38 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: ` ${SITE.title} on Github`,
+    linkTitle: ` ${SITE.title} en Github`,
     active: true,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Facebook`,
+    linkTitle: `${SITE.title} en Facebook`,
     active: true,
   },
   {
     name: "Instagram",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Instagram`,
+    linkTitle: `${SITE.title} en Instagram`,
     active: true,
   },
   {
     name: "LinkedIn",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on LinkedIn`,
-    active: true,
+    active: false,
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
-    linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    href: "mailto:pernestillo@gmail.com",
+    linkTitle: `Enviar email a ${SITE.title}`,
+    active: true,
   },
   {
     name: "Twitter",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Twitter`,
-    active: false,
+    linkTitle: `${SITE.title} en X`,
+    active: true,
   },
   {
     name: "Twitch",
@@ -71,8 +71,8 @@ export const SOCIALS: SocialObjects = [
   {
     name: "YouTube",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on YouTube`,
-    active: false,
+    linkTitle: `${SITE.title} en YouTube`,
+    active: true,
   },
   {
     name: "WhatsApp",
@@ -137,8 +137,8 @@ export const SOCIALS: SocialObjects = [
   {
     name: "Telegram",
     href: "https://github.com/satnaing/astro-paper",
-    linkTitle: `${SITE.title} on Telegram`,
-    active: false,
+    linkTitle: `${SITE.title} en Telegram`,
+    active: true,
   },
   {
     name: "Mastodon",
