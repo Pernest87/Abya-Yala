@@ -30,13 +30,13 @@ export const SOCIALS: SocialObjects = [
     name: "Github",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: ` ${SITE.title} en Github`,
-    active: true,
+    active: false,
   },
   {
     name: "Facebook",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} en Facebook`,
-    active: true,
+    active: false,
   },
   {
     name: "Instagram",
@@ -54,7 +54,7 @@ export const SOCIALS: SocialObjects = [
     name: "Mail",
     href: "mailto:pernestillo@gmail.com",
     linkTitle: `Enviar email a ${SITE.title}`,
-    active: true,
+    active: false,
   },
   {
     name: "Twitter",
@@ -96,7 +96,7 @@ export const SOCIALS: SocialObjects = [
     name: "TikTok",
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on TikTok`,
-    active: false,
+    active: true,
   },
   {
     name: "CodePen",
@@ -145,5 +145,10 @@ export const SOCIALS: SocialObjects = [
     href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Mastodon`,
     active: false,
-  },
+  }, 
+  {  
+    name: "Farcaster",
+    href: "https://farcaster.xyz/deai.eth",  // Cambia "your-username" por tu nombre de usuario en Farcaster
+    linkTitle: `${SITE.title} on Farcaster`,
+    active: true,}
 ];
